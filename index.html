@@ -24,7 +24,6 @@
                 {name: "Herat", utcOffset: 4.5, flag: "Afghanistan.png"},
                 {name: "Makkah", utcOffset: 3, flag: "Saudi-Arabia.png"},
                 {name: "Medinah", utcOffset: 3, flag: "Saudi-Arabia.png"},
-                {name: "Joburg", utcOffset: 2, flag: "South-Africa.png"}
             ];
 
             cities.sort(compare);
@@ -57,7 +56,7 @@
 
             function displayWorldTime(){
                 var dt = new Date();
-                document.getElementById("local").innerHTML = "local time : " + dt.toLocaleTimeString();
+                document.getElementById("local").innerHTML = "Local Time : " + dt.toLocaleTimeString();
 
                 var output = `<table id="cities">`;
                 output += `
